@@ -53,6 +53,7 @@ with tempfile.TemporaryDirectory() as tmpdirname:
         model.save_pretrained(tmp_hub_dir)
         tokenizer.save_pretrained(tmp_hub_dir)
         shutil.copyfile("pipeline/pipeline.py", tmp_hub_dir.joinpath("pipeline.py"))
+        shutil.copyfile("pipeline/requirements.txt", tmp_hub_dir.joinpath("requirements.txt"))
 
 
         model.push_to_hub(tmp_hub_dir, repository_id=repository_id, use_auth_token=True)
