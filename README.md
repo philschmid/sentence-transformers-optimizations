@@ -1,3 +1,6 @@
+# Moved to https://github.com/philschmid/optimum-transformers-optimizations/tree/master
+
+
 # Optimizing Transformers with Optimum
 
 In this session, you will learn how to optimize Hugging Face Transformers models using Optimum. The session will show you how to dynamically quantize and optimize a DistilBERT model using [Hugging Face Optimum](https://huggingface.co/docs/optimum/index) and [ONNX Runtime](https://onnxruntime.ai/). Hugging Face Optimum is an extension of 🤗 Transformers, providing a set of performance optimization tools enabling maximum efficiency to train and run models on targeted hardware.
